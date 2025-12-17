@@ -1,5 +1,5 @@
 export default {
-  fetch(req) {
-    return new Response("ok:"+req.url);
+  async fetch(request, env, ctx) {
+    return new Response("ok:" + request.url);
   }
 }
