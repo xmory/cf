@@ -6,7 +6,7 @@ import { connect } from 'cloudflare:sockets';
 // 注意：建议在 Cloudflare 后台设置环境变量 UUID
 // 否则将使用下面硬编码的默认 UUID
 // ===========================================
-let userID = 'f376417f-4e74-41e7-86ce-5cb0161d8e1a';
+let userID = '';
 
 // 修复点1：默认禁用 proxyIP，避免不必要的回退导致 HSTS 问题
 // 如果确实需要 proxyIP，请在环境变量中设置
